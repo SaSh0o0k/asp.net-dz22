@@ -18,6 +18,11 @@ export interface IProductData {
 
 export interface IProductSearch{
     name?: string,
+    minPrice?: number,
+    maxPrice?: number,
+    quantity?: number,
+    minQuantity?: number,
+    maxQuantity?: number,
     description?: string,
     page: number,
     pageSize: number,
